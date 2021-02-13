@@ -16,14 +16,14 @@ Sample values in a file might look like this
 
 count_list =[]
 
-FILE_TO_READ = "./sample_files/unique_and_sorted_file.csv" #replace with your file name
+FILE_TO_READ = "./sample_files/unique_and_sorted.csv" #replace with your file name
 FILE_TO_WRITE = "./sample_files/file_to_write.csv"
 
 with open(FILE_TO_READ,'r') as fread, open(FILE_TO_WRITE,'w') as fwrite:
     for line in fread: #split the row and add the values into the list
-        print(line)
+        #print(line)
         str = line.split(',')
-        print(str)
+        #print(str)
         if (str[1] != "\n"):
             count_list.append(int(str[1]))
     count_list = list(set(count_list)) #save the value into a new list and sort it
