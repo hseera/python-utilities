@@ -10,3 +10,6 @@ This script extracts data from a file, removes rows with no data, sorts and save
 
 ## Histogram
 This script generates histrogram for the response time data.
+
+## Extract Data
+This script extracts data that matches a specific text in a column and saves into a new file.
