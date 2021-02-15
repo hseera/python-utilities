@@ -1,5 +1,5 @@
 # Python Utilities
-Different python utility scripts to help automate mandane performance testing tasks.
+Different python utility scripts to help automate mundane performance testing tasks.
 
 
 # 1: Merge Columns
