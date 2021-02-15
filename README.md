@@ -42,7 +42,7 @@ This script randomizes data in a file. Useful when you want to have a random ord
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/randomize-data.png)
 
 # [7: Unique Occurrence Count](#6-unique-occurrence-count)
-This script saves total number of occurrence of each unique item in a file. Useful when you are understand data skewness and what should be the best representation for testing.
+This script saves total number of occurrence of each unique item in a file. Useful for designing the test data distribution for testing.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
  
