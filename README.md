@@ -1,8 +1,9 @@
-# python-utilities
+# Python Utilities
 Different python utility scripts to help automate mandane performance testing tasks.
 
+[1: Merge Columns](#1: Merge Columns)
 
-## 1: Merge Columns
+# 1: Merge Columns
 This script merges columns from different files together and generates a new file.
 ![MergeColumns](https://github.com/hseera/python-utilities/blob/main/images/merged-files.png)
 
