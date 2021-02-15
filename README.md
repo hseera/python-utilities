@@ -22,3 +22,7 @@ This script extracts response time data that matches a specific text in a column
 This script swaps columns in a file. Useful when trying to rearrange columns for easy of use/readability. 
 For demonstration purpose, the script rearranges JMeter result csv columns as I like them to view. However can be extended for other use too.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/swap-columns.png)
+
+## 6: Randomize Data
+This script randomizes data in a file. Useful when you want to have a random order of data in file for testing purpose.
+![Data](https://github.com/hseera/python-utilities/blob/main/images/randomize-data.png)
