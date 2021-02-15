@@ -3,7 +3,7 @@ Different python utility scripts to help automate mundane performance testing ta
 
 [1: Merge Columns](#merge-columns)
 
-#merge-columns
+# [1: Merge Columns](#merge-columns)
 This script merges columns from different files together and generates a new file.
 ![MergeColumns](https://github.com/hseera/python-utilities/blob/main/images/merged-files.png)
 
