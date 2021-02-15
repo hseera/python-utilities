@@ -13,6 +13,7 @@ Different python utility scripts to help automate mundane performance testing ta
 
 [6: Randomize Data](#6-randomize-data)
 
+[7: Unique Occurrence Count](#6-unique-occurrence-count)
 
 # [1: Merge Columns](#1-merge-columns)
 This script merges columns from different files together and generates a new file.
@@ -39,3 +40,9 @@ For demonstration purpose, the script rearranges JMeter result csv columns as I 
 This script randomizes data in a file. Useful when you want to have a random order of data in file for testing purpose.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/randomize-data.png)
+
+# [7: Unique Occurrence Count](#6-unique-occurrence-count)
+This script saves total number of occurrence of each unique item in a file. Useful when you are understand data skewness and what should be the best representation for testing.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
+ 
