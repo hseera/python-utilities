@@ -2,11 +2,17 @@
 Different python utility scripts to help automate mundane performance testing tasks.
 
 [1: Merge Columns](#1-merge-columns)
+
 [2: Unique and Sorted](#2-unique-and-sorted)
+
 [3: Histogram](#3-histogram)
+
 [4: Extract Data](#4-extract-data)
+
 [5: Swap Columns](#5-swap-columns)
+
 [6: Randomize Data](#6-randomize-data)
+
 
 # [1: Merge Columns](#1-merge-columns)
 This script merges columns from different files together and generates a new file.
