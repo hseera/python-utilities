@@ -19,6 +19,6 @@ This script extracts response time data that matches a specific text in a column
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/extract-data.png)
 
 ## 5: Swap Columns
-This script swaps columns in the file. Useful when trying to rearrange columns for easy of use. 
-The script uses Jmeter result csv sample file to swap columns for demonstration purpose. However can be extended for other use too.
+This script swaps columns in a file. Useful when trying to rearrange columns for easy of use/readability. 
+For demonstration purpose, the script rearranges JMeter result csv columns as I like them to view. However can be extended for other use too.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/swap-columns.png)
