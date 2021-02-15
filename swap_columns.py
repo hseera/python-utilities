@@ -11,7 +11,7 @@ columns =['timeStamp','label','elapsed','Latency','Connect','IdleTime','response
           'responseMessage','bytes','dataType','success',
           'failureMessage','sentBytes','URL','threadName','allThreads','grpThreads']
 
-df = pd.read_csv('./sample_files/swap_001.csv')
-df_reordered = df[columns] 
-df_reordered.to_csv('./sample_files/swap_001.csv', index=False)
+original_order = pd.read_csv('./sample_files/swap_001.csv')
+swapped_order = original_order[columns] 
+swapped_order.to_csv('./sample_files/swap_001.csv', index=False)
     
