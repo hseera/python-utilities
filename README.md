@@ -17,3 +17,8 @@ This script generates histrogram for the response time data.
 ## 4: Extract Data
 This script extracts response time data that matches a specific text in a column and saves into a new file.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/extract-data.png)
+
+## 5: Swap Columns
+This script swaps columns in the file. Useful when trying to rearrange columns for easy of use. 
+The script uses Jmeter result csv sample file to swap columns for demonstration purpose.
+![Data](https://github.com/hseera/python-utilities/blob/main/images/swap-columns.png)
