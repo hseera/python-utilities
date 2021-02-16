@@ -13,7 +13,9 @@ Different python utility scripts to help automate mundane performance testing ta
 
 [6: Randomize Data](#6-randomize-data)
 
-[7: Unique Occurrence Count](#6-unique-occurrence-count)
+[7: Unique Occurrence Count](#7-unique-occurrence-count)
+
+[8: Split File By Text](#8-split-file-by-text)
 
 # [1: Merge Columns](#1-merge-columns)
 This script merges columns from different files together and generates a new file.
@@ -41,8 +43,14 @@ This script randomizes data in a file. Useful when you want to have a random ord
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/randomize-data.png)
 
-# [7: Unique Occurrence Count](#6-unique-occurrence-count)
+# [7: Unique Occurrence Count](#7-unique-occurrence-count)
 This script saves total number of occurrence of each unique item in a file. Useful for designing the test data distribution for testing.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
  
+# [8: Split File By Text](#8-split-file-by-text)
+Extract data that matches a text in the data file and create a new file containing that data. 
+Useful when you have one big data file with all the data and you want to create separate data for each test script. 
+For example, you have one big data file that contains images, js & CSS URLs. 
+And you want to create a separate data file for CSS, js & images respectively. This script will help just do that.
+![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
