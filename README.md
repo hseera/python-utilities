@@ -53,4 +53,4 @@ Extract data that matches a text in the data file and create a new file containi
 Useful when you have one big data file with all the data and you want to create separate data for each test script. 
 For example, you have one big data file that contains images, js & CSS URLs. 
 And you want to create a separate data file for CSS, js & images respectively. This script will help just do that.
-![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
+![Data](https://github.com/hseera/python-utilities/blob/main/images/split-file-by-text.png)
