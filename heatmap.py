@@ -42,14 +42,14 @@ def heatmap(FILE_TO_READ):
         top -= 0.5 # Subtract 0.5 from the top
         plt.ylim(bottom, top) # update the ylim(bottom, top) values
         plt.show()
-        plt.savefig('heatmap.png')
+        fig.savefig("heatmap.png",bbox_inches = "tight")
         
     except Exception as e:
         raise e
 
             
 def main():
-    FILE_TO_READ = "./sample_file/heatmap.csv" #data file
+    FILE_TO_READ = "./sample_files/heatmap.csv" #data file
     heatmap(FILE_TO_READ)
 
 if __name__ == "__main__":
