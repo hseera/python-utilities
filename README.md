@@ -4,10 +4,10 @@ The readme page will continue to get updated as and when, I add new utility to t
 
 
 |Utility Link |Utility Link|Utility Link|
-|:-------------------------------------------|:-------------------------------------------|:------------------|
-|[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|
-|[4: Extract Data](#4-extract-data)|[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|
-|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|[9: Heatmap](#9-heatmap)|
+|:-------------------------|:---------------|:------------------|:------------------|
+|[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Data](#4-extract-data)|
+|[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
+|[9: Heatmap](#9-heatmap)||||
 
 
 
