@@ -63,4 +63,7 @@ There might the times when it is not easy to notice small fluctuations in data u
 This script generates a heatmap for the data where you are trying to observe patterns over minutes/hours but for a longer duration (i.e.30 days). 
 For example, there might be a specific hour of the day when you see more load but it is not higher than the peak load in a day. 
 Therefore line chart for a longer duration (i.e. 30 days) might hide that pattern or it might not be easily visible.
+
+Same can be performed in excel using pivot table but will require some manual effort.
+
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/heatmap.png)
