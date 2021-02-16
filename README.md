@@ -20,7 +20,8 @@ This script extracts data from a file, removes rows with no data, sorts and save
 ![Unique](https://github.com/hseera/python-utilities/blob/main/images/unique-sorted.png)
 
 # [3: Histogram](#3-histogram)
-This script generates histrogram for the response time data.
+This script generates response time distribution graph (histrogram) from the JMeter result CSV.
+Can be extended for others tools too.
 ![Histogram](https://github.com/hseera/python-utilities/blob/main/images/histogram.png)
 
 # [4: Extract Data](#4-extract-data)
