@@ -17,6 +17,8 @@ Different python utility scripts to help automate mundane performance testing ta
 
 [8: Split File By Text](#8-split-file-by-text)
 
+[9: Heatmap](#9-heatmap)
+
 # [1: Merge Columns](#1-merge-columns)
 This script merges columns from different files together and generates a new file.
 ![MergeColumns](https://github.com/hseera/python-utilities/blob/main/images/merged-files.png)
@@ -54,3 +56,10 @@ Useful when you have one big data file with all the data and you want to create 
 For example, you have one big data file that contains images, js & CSS URLs. 
 And you want to create a separate data file for CSS, js & images respectively. This script will help just do that.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/split-file-by-text.png)
+
+# [9: Heatmap](#9-heatmap)
+There might the times when it is not easy to notice small fluctuations in data using a line chart. 
+This script generates a heatmap for the data where you are trying to observe patterns over minutes/hours but for a longer duration (i.e.30 days). 
+For example, there might be a specific hour of the day when you see more load but it is not higher than the peak load in a day. 
+Therefore line chart for a longer duration (i.e. 30 days) might hide that pattern or it might not be easily visible.
+![Data](https://github.com/hseera/python-utilities/blob/main/images/heatmap.png)
