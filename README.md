@@ -7,7 +7,7 @@ The readme page will continue to get updated as and when, I add new utility to t
 |:-------------------------|:---------------|:------------------|:------------------|
 |[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Data](#4-extract-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
-|[9: Heatmap](#9-heatmap)||||
+|[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|||
 
 
 
@@ -61,3 +61,9 @@ Therefore line chart for a longer duration (i.e. 30 days) might hide that patter
 Same can be performed in excel using pivot table but will require some manual effort.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/heatmap.png)
+
+# [10: Pivot Table](#10-pivot-table)
+This script converts extensive data (two/three column data) into a summairzed pivot table format. 
+Useful when you want to have a summarized view of the requests/error/response time over long period.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/pivot.png)
