@@ -12,7 +12,7 @@ However with slight modification(/in some cases none) can be used in other field
 |:-------------------------|:---------------|:------------------|:------------------|
 |[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
-|[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)||
+|[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Heatmap](#12-network-conversation-heatmap)|
 
 
 
@@ -77,3 +77,9 @@ Useful when you want to have a summarized view of the requests/error/response ti
 Generate random ABN and ACN numbers. Useful for performance/functional test scenario's that require valid ABN and/or ACN data for testing.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/abn-acn.png)
+
+# [12: Network Conversation Heatmap](#12-network-conversation-heatmap)
+Convert Wireshark network conversation view into a heatmap. 
+Useful when you have a lot of conversations captured in the trace file and want to make it easier to read wireshark network conservation view.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/network-conversation-heatmap.png)
