@@ -74,6 +74,6 @@ Useful when you want to have a summarized view of the requests/error/response ti
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/pivot.png)
 
 # [11: Generate ABN And ACN](#11-generate-abn-and-acn)
-Generate random ABN and ACN numbers. Useful for performance/functional test scenario's that require ABN and/or ACN data for testing.
+Generate random ABN and ACN numbers. Useful for performance/functional test scenario's that require valid ABN and/or ACN data for testing.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/abn-acn.png)
