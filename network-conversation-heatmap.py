@@ -53,7 +53,7 @@ def network_traffic_heatmap(pivot_data):
                               }
                     )
         
-        ax.set_title('Network Traffic Flow & Bytes Transferred')
+        ax.set_title('Network Conversation Flow & Bytes Transferred')
         
         ax.set_facecolor('lightgrey')
           
@@ -69,7 +69,7 @@ def network_traffic_heatmap(pivot_data):
         plt.xlabel('Destination IPs')
         plt.ylabel('Source IPs')
         plt.show()
-        fig.savefig("network-heatmap.png",bbox_inches = "tight")
+        fig.savefig("network-conversation-heatmap.png",bbox_inches = "tight")
         
     except Exception as e:
         print(e)
