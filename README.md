@@ -5,7 +5,7 @@ The readme page will continue to get updated as and when, I add new utility to t
 
 |Utility Link |Utility Link|Utility Link|Utility Link|
 |:-------------------------|:---------------|:------------------|:------------------|
-|[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Data](#4-extract-data)|
+|[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)||
 
@@ -25,7 +25,7 @@ Can be extended for others tools too.
 
 ![Histogram](https://github.com/hseera/python-utilities/blob/main/images/histogram.png)
 
-# [4: Extract Data](#4-extract-data)
+# [4: Extract Matched Data](#4-extract-matched-data)
 This script extracts response time data that matches a specific text in a column and saves into a new file.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/extract-data.png)
 
