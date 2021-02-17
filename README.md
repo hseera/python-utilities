@@ -79,7 +79,7 @@ Generate random ABN and ACN numbers. Useful for performance/functional test scen
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/abn-acn.png)
 
 # [12: Network Conversation Heatmap](#12-network-conversation-heatmap)
-Convert Wireshark network conversation view into a heatmap. Useful when you have a lot of conversations captured in a trace file. 
-This script makes it easy to visualize them instead of using wireshark network conversation view (if not comfortable using it).
+Convert network conversation captured in the trace file into a heatmap. Useful when you have a lot of conversations captured. 
+This script makes it easy to visualize the conversations, if you are not comfortable reading/trolling the Wireshark network conversation view. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/network-conversation-heatmap.png)
