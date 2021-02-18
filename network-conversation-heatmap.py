@@ -9,8 +9,7 @@ from matplotlib.colors import LinearSegmentedColormap
 
 '''
 Currently the script only caters for packets that have IP layer. 
-It filters out packets such as simple service discovery protocol (ssdp) as it doesn't contain the IP layer. 
-
+It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
 '''
 
 def convert_trace_file(FILE):
