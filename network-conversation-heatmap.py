@@ -8,8 +8,8 @@ from matplotlib.colors import LinearSegmentedColormap
 
 
 '''
-Currently the script doesn't cater for simple service discovery protocol (ssdp). 
-Therefore make sure ssdp is filtered out before generating the heatmap.
+Currently the script only caters for packets that have IP layer. 
+It filters out packets such as simple service discovery protocol (ssdp) as it doesn't contain the IP layer. 
 
 '''
 
@@ -20,10 +20,13 @@ def convert_trace_file(FILE):
         packet_list = []
             
         for packet in packets:
-            src_ip = packet['IP'].src
-            dst_ip = packet['IP'].dst
-            length = packet['IP'].len
-            packet_list.append([src_ip,dst_ip, length])
+            if packet.haslayer('IP'):
+                src_ip = packet['IP'].src
+                dst_ip = packet['IP'].dst
+                length = packet['IP'].len
+                packet_list.append([src_ip,dst_ip, length])
+            else:
+                continue
         
         df=pd.DataFrame(packet_list,columns=['src','dst','length'])
         
@@ -40,7 +43,7 @@ def convert_trace_file(FILE):
 def network_traffic_heatmap(pivot_data):
     try:
         
-        fig, ax = plt.subplots(figsize=(14,6))
+        fig, ax = plt.subplots(figsize=(14,10))
         
         sns.heatmap(pivot_data,
                     ax=ax,
@@ -66,8 +69,8 @@ def network_traffic_heatmap(pivot_data):
         bottom += 0.5 # Add 0.5 to the bottom
         top -= 0.5 # Subtract 0.5 from the top
         plt.ylim(bottom, top) # update the ylim(bottom, top) values
-        plt.xlabel('Destination IPs')
-        plt.ylabel('Source IPs')
+        plt.xlabel('Destination')
+        plt.ylabel('Source')
         plt.show()
         fig.savefig("network-conversation-heatmap.png",bbox_inches = "tight")
         
