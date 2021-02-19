@@ -85,7 +85,7 @@ This script makes it easy to visualize the conversations, if you are not comfort
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/network-conversation-heatmap.png)
 
 # [13: Creditcard Generator](#13-creditcard-generator)
-Generate Mastercard/Visa creditcard numbers. Useful when dummy creditcard numbers are needed for testing purpose ONLY. 
-They are useless without the valid owner name, an expiration date and a valid CVV code. Therefore they CAN NOT be used for REAL transactions.
+Generate Mastercard/Visa creditcard numbers. Useful when dummy creditcard numbers are needed for **Testing purpose ONLY**. 
+They are useless without the valid owner name, an expiration date and a valid CVV code. Therefore they **CAN NOT** be used for **REAL** transactions.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/creditcards.png)
