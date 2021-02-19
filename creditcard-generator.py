@@ -39,17 +39,17 @@ def generate_creditcard_number(credit_type, count):
                     if (rev_card[i]) > 9:
                         rev_card[i] = (rev_card[i]) - 9
                 
-                s = sum(rev_card)
+                total_sum = sum(rev_card)
                 
-                mod = s % 10 #16th digit in master card is a check digit
+                mod = total_sum % 10 #16th digit in master card is a check digit
                 if mod ==0:
                     check_sum= 0
                 else:
                     check_sum = 10 - mod
                     
                 credit_card.append(check_sum)
-                credit_card = int("".join(map(str, credit_card))) # create a mastercard number as a string
-                credit_card_list.append(credit_card)
+                credit_card = int("".join(map(str, credit_card)))
+                credit_card_list.append(credit_card) #append all the creditcards to a list
                 credit_card=[]
         if credit_type == "Visa":
         #visa card can be 13-16-19 digits. This code generates 16 digit card number
@@ -69,20 +69,20 @@ def generate_creditcard_number(credit_type, count):
                     if (rev_card[i]) > 9:
                         rev_card[i] = (rev_card[i]) - 9
                 
-                s = sum(rev_card)
+                total_sum = sum(rev_card)
                 
-                mod = s % 10 #16th digit in master card is a check digit
+                mod = total_sum % 10 #16th digit in visa is a check digit
                 if mod ==0:
                     check_sum= 0
                 else:
                     check_sum = 10 - mod
                     
                 credit_card.append(check_sum)
-                credit_card = int("".join(map(str, credit_card))) # create a mastercard number as a string
-                credit_card_list.append(credit_card)
+                credit_card = int("".join(map(str, credit_card)))
+                credit_card_list.append(credit_card) #append all the creditcards to the list
                 credit_card=[]
         #print(credit_card_list)
-        write_to_file(credit_card_list)
+        write_to_file(credit_card_list) # save the creditcards to a file
         credit_card_list=[]
 
 def write_to_file(credit_card_list):
