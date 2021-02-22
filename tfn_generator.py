@@ -7,6 +7,8 @@ https://en.wikipedia.org/wiki/Tax_file_number
 
 To valid the data -> https://cdn.rawgit.com/steveswinsburg/tfn-validator/master/tfn-validator.html
 
+Special TFN numbers -> https://www.ato.gov.au/Forms/PAYG-payment-summary---individual-non-business/?page=3
+
 '''
 
 from random import randint
