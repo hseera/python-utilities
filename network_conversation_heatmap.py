@@ -90,7 +90,7 @@ def network_graph(df):
     
     
 def main():
-    FILE = 'C:\\Users\\harinder\\Documents\\GitHub\\working-folder\\simple.pcap' #'./sample.pcap'
+    FILE = './sample.pcap'
     
     NETWORK_PLOT = False #Set this to true if you want graph chart. Default is false.
     
