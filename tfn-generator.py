@@ -4,6 +4,9 @@
 This script generates a 9 digit TFN number
 
 https://en.wikipedia.org/wiki/Tax_file_number
+
+To valid the data -> https://cdn.rawgit.com/steveswinsburg/tfn-validator/master/tfn-validator.html
+
 '''
 
 from random import randint

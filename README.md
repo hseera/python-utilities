@@ -13,7 +13,7 @@ However with slight modification(/in some cases none) can be used in other field
 |[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Heatmap](#12-network-conversation-heatmap)|
-|[13: Creditcard Generator](#13-creditcard-generator)||||
+|[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tnf-generator)|||
 
 
 # [1: Merge Columns](#1-merge-columns)
@@ -89,3 +89,8 @@ Generate Mastercard/Visa creditcard numbers. Useful when dummy creditcard number
 They are useless without the valid owner name, an expiration date and a valid CVV code. Therefore they **CAN NOT** be used for **REAL** transactions.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/creditcards.png)
+
+# [14: TFN Generator](#14-tnf-generator)
+Generate valid TFN numbers.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/tfn.png)
