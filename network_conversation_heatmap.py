@@ -84,9 +84,11 @@ def network_traffic_heatmap(pivot_data):
 def network_graph(df):
     G = nx.Graph()
     G = nx.from_pandas_edgelist(df, source='src', target='dst', edge_attr=True, create_using=nx.DiGraph())
-    plt.figure(figsize=(14,10))
+    fig, ax = plt.subplots(figsize=(14,10))
+    ax.set_title('Network Conversation Flow')
     nx.draw_networkx(G)
     plt.show()
+    fig.savefig("network-conversation-flow.png",bbox_inches = "tight")
     
     
 def main():
