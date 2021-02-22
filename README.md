@@ -8,7 +8,7 @@ Most of these utilities are focused around performance testing/engineering.
 However with slight modification(/in some cases none) can be used in other fields too.
 
 
-
+|Utility Link |Utility Link|Utility Link|Utility Link|
 |:-------------------------|:---------------|:------------------|:------------------|
 |[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
