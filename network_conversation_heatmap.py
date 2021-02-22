@@ -5,6 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
+import networkx as nx
 
 
 '''
@@ -12,7 +13,7 @@ Currently the script only caters for packets that have IP layer.
 It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
 '''
 
-def convert_trace_file(FILE):
+def convert_trace_file(FILE, status):
     try:
         packets = PcapReader(FILE) # network trace file
         
@@ -34,6 +35,9 @@ def convert_trace_file(FILE):
         pivot = res.pivot(index='src', columns='dst', values='length')
         
         network_traffic_heatmap(pivot)
+        
+        if (status == True):
+            network_graph(res)
         
     except Exception as e:
         print(e)
@@ -76,11 +80,21 @@ def network_traffic_heatmap(pivot_data):
     except Exception as e:
         print(e)
 
-    
 
+def network_graph(df):
+    G = nx.Graph()
+    G = nx.from_pandas_edgelist(df, source='src', target='dst', edge_attr=True, create_using=nx.DiGraph())
+    plt.figure(figsize=(14,10))
+    nx.draw_networkx(G)
+    plt.show()
+    
+    
 def main():
-    FILE =  './sample.pcapng'
-    convert_trace_file(FILE)
+    FILE = 'C:\\Users\\harinder\\Documents\\GitHub\\working-folder\\simple.pcap' #'./sample.pcap'
+    
+    NETWORK_PLOT = False #Set this to true if you want graph chart. Default is false.
+    
+    convert_trace_file(FILE, NETWORK_PLOT)
     
 if __name__ == "__main__":
     main()
