@@ -73,7 +73,7 @@ def generate_ird(ird_num_to_generate):
     while i <= ird_num_to_generate: #How many IRD numbers to generate
         total_sum = 0
         ird.append(1) # The first digit in IRD starts with 1
-        ird.append(4) # The second digit in IRD starts with 4
+        ird.append(randint(0,4)) # The second digit in IRD starts with 4
         
         for num in range(0,6): # Append 6 random digits to IRD number
             ird.append(randint(0,9))
