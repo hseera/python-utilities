@@ -1,5 +1,5 @@
 # Python Utilities
-Different python utility scripts to help automate mundane/repetitive performance testing tasks.
+Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
 The readme page will continue to get updated as and when, I add new utility to the repo.
 
 **Note:**
