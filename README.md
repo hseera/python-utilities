@@ -103,6 +103,6 @@ Generate a list of valid New Zealand Inland Revenue Department Numbers (IRD). It
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/ird.png)
 
 # [16: Dollar Format](#16-dollar-format)
-Format data in a file to a dollar value. Useful when you need to pass a dollar value in a payload instead of a number.
+Format data file with dollar value. Useful when you need to pass dollar value parameter from a file in a payload instead of a number.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/dollar.png)
