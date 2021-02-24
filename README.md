@@ -14,7 +14,7 @@ However with slight modification(/in some cases none) can be used in other field
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Flow](#12-network-conversation-flow)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
-|[17: File Splitter](#17-file-splitter)||||
+|[17: File Splitter](#17-file-splitter)|[18 Locate File](#18-locate-file)|||
 
 
 # [1: Merge Columns](#1-merge-columns)
@@ -112,4 +112,10 @@ Format data file with dollar value. Useful when you need to pass dollar value pa
 Split big file into multiple smaller size files. 
 Useful when you want to have unique data for same script running across multiple injectors. 
 
- ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
+![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
+
+# [18 Locate File](#18-locate-file)
+Recursively search for a file in a folder and all it's subfolders. Print out the locations where that file is located.
+Useful when you don't want to scroll through all the folders and files to locate the file you need.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/find-files.png)
