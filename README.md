@@ -14,7 +14,7 @@ However with slight modification(/in some cases none) can be used in other field
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Flow](#12-network-conversation-flow)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
-|||||
+|[17: File Splitter](#17-file-splitter)||||
 
 
 # [1: Merge Columns](#1-merge-columns)
@@ -107,3 +107,9 @@ Generate a list of valid New Zealand Inland Revenue Department Numbers (IRD). It
 Format data file with dollar value. Useful when you need to pass dollar value parameter from a file in a payload instead of a number.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/dollar.png)
+
+# [17: File Splitter](#17-file-splitter)
+Split main file into multiple smaller size files. 
+Useful when you want to have unique data for same script running across multiple injectors. 
+
+ ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
