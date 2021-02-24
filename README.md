@@ -109,7 +109,7 @@ Format data file with dollar value. Useful when you need to pass dollar value pa
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/dollar.png)
 
 # [17: File Splitter](#17-file-splitter)
-Split main file into multiple smaller size files. 
+Split big file into multiple smaller size files. 
 Useful when you want to have unique data for same script running across multiple injectors. 
 
  ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
