@@ -1,9 +1,9 @@
 # Python Utilities
 Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
-The readme page will continue to get updated as and when, I add new utility to the repo.
+The readme page will continue to get updated as and when I add a new utility to the repo.
 
-**Note:** Most of these utilities are focused around performance testing/engineering. 
-However with slight modification(/in some cases none) can be used in other fields/areas too.
+**Note:** Most of these utilities are focused on performance testing/engineering. 
+However, with slight modification(/in some cases none) can be used in other fields/areas too.
 
 
 |Utility Link |Utility Link|Utility Link|Utility Link|
@@ -80,7 +80,8 @@ Generate random ABN and ACN numbers. Useful for performance/functional test scen
 # [12: Network Conversation Flow](#12-network-conversation-flow)
 Convert network conversation captured in the trace file into a heatmap. Useful when you have a lot of conversations captured. 
 This script makes it easy to visualize the conversations, if you are not comfortable reading/trolling the Wireshark network conversation view.
-It also has an option to generate a graph too. However the code to generate graph will require a little modification to cater for too many conversations. For less than 40 conversations in a trace file, the current code should suffice.  
+It also has an option to generate a graph too. However, the code to generate the graph will require a little modification to cater to too many conversations. 
+For less than 40 conversations in a trace file, the current code should suffice.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/network-conversation-heatmap.png)
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/graph.png)
@@ -102,18 +103,19 @@ Generate a list of valid New Zealand Inland Revenue Department Numbers (IRD). It
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/ird.png)
 
 # [16: Dollar Format](#16-dollar-format)
-Format data file with dollar value. Useful when you need to pass dollar value parameter from a file in a payload instead of a number.
+Format data file with the dollar value. Useful when you need to pass dollar value parameter from a file in a payload instead of a number.
+Most of the time it should be handled in a code. Incase you are passing it through a file then this script can reduce the effort.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/dollar.png)
 
 # [17: File Splitter](#17-file-splitter)
-Split big file into multiple smaller size files. 
-Useful when you want to have unique data for same script running across multiple injectors. 
+Split a big file into multiple smaller size files. 
+Useful when you want to have unique data for the same script running across multiple injectors. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
 
 # [18 Locate File](#18-locate-file)
-Recursively search for a file in a folder and all it's subfolders. Print out the locations where that file is located.
+Recursively search for a file in a folder and all its subfolders. Print out the locations where that file is located.
 Useful when you don't want to scroll through all the folders and files to locate the file you need.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/find-files.png)
