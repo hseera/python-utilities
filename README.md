@@ -120,7 +120,7 @@ Useful when you don't want to scroll through all the folders and files to locate
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/find-files.png)
 
-# [19 Websphere Verbosegc](#18-websphere-verbosegc)
+# [19 Websphere Verbosegc](#19-websphere-verbosegc)
 Save highlevel websphere verbosegc metrics into csv. Useful when you want to import the data to a load test tool for analyses & correlate with other metrics.
 Assupmtion is that you do have any other means (i.e apm tools, sitescope etc) to view this data with other application & system metrics.  
 
