@@ -1,0 +1,363 @@
+<?xml version="1.0" ?>
+<verbosegc version="20100216_AA_CMPRSS">
+<af type="nursery" id="120" timestamp="Feb 28 17:56:36 2013" intervalms="1292398.181">
+  <minimum requested_bytes="48" />
+  <time exclusiveaccessms="0.089" meanexclusiveaccessms="0.089" threads="0" lastthreadtid="0x00000000052B9300" />
+  <refs soft="37307" weak="87091" phantom="3664" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="235801688" totalbytes="977374208" percent="24" >
+    <soa freebytes="235801688" totalbytes="977374208" percent="24" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="120" totalid="125" intervalms="1292398.414">
+    <flipped objectcount="327324" bytes="46083424" />
+    <tenured objectcount="223964" bytes="7503832" />
+    <finalization objectsqueued="1659" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="653233832" totalbytes="710079488" percent="91" tenureage="14" />
+    <tenured freebytes="228054824" totalbytes="977374208" percent="23" >
+      <soa freebytes="228054824" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="142.486" />
+  </gc>
+  <nursery freebytes="653168296" totalbytes="710079488" percent="91" />
+  <tenured freebytes="228054824" totalbytes="977374208" percent="23" >
+    <soa freebytes="228054824" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="37275" weak="49799" phantom="3664" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="142.823" />
+</af>
+
+<af type="nursery" id="121" timestamp="Feb 28 18:08:45 2013" intervalms="728594.898">
+  <minimum requested_bytes="96" />
+  <time exclusiveaccessms="0.096" meanexclusiveaccessms="0.096" threads="0" lastthreadtid="0x0000000002042D00" />
+  <refs soft="37357" weak="110843" phantom="3710" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="227860480" totalbytes="977374208" percent="23" >
+    <soa freebytes="227860480" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="121" totalid="126" intervalms="728595.155">
+    <flipped objectcount="351163" bytes="44556784" />
+    <tenured objectcount="2570" bytes="165120" />
+    <finalization objectsqueued="1027" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="657893872" totalbytes="710079488" percent="92" tenureage="14" />
+    <tenured freebytes="227598336" totalbytes="977374208" percent="23" >
+      <soa freebytes="227598336" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="112.562" />
+  </gc>
+  <nursery freebytes="657828336" totalbytes="710079488" percent="92" />
+  <tenured freebytes="227598336" totalbytes="977374208" percent="23" >
+    <soa freebytes="227598336" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="37282" weak="49827" phantom="3668" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="112.897" />
+</af>
+
+<af type="nursery" id="122" timestamp="Feb 28 18:19:30 2013" intervalms="645626.644">
+  <minimum requested_bytes="65552" />
+  <time exclusiveaccessms="0.096" meanexclusiveaccessms="0.096" threads="0" lastthreadtid="0x0000000005459700" />
+  <refs soft="37326" weak="71026" phantom="3670" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="227591016" totalbytes="977374208" percent="23" >
+    <soa freebytes="227591016" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="122" totalid="127" intervalms="645626.881">
+    <flipped objectcount="361402" bytes="45424016" />
+    <tenured objectcount="170" bytes="12072" />
+    <finalization objectsqueued="792" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="657855784" totalbytes="710079488" percent="92" tenureage="14" />
+    <tenured freebytes="227459944" totalbytes="977374208" percent="23" >
+      <soa freebytes="227459944" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="117.669" />
+  </gc>
+  <nursery freebytes="657790232" totalbytes="710079488" percent="92" />
+  <tenured freebytes="227459944" totalbytes="977374208" percent="23" >
+    <soa freebytes="227459944" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="37287" weak="49841" phantom="3668" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="118.005" />
+</af>
+
+<af type="nursery" id="123" timestamp="Feb 28 18:30:28 2013" intervalms="657771.579">
+  <minimum requested_bytes="65552" />
+  <time exclusiveaccessms="0.063" meanexclusiveaccessms="0.063" threads="0" lastthreadtid="0x0000000002719900" />
+  <refs soft="37367" weak="71198" phantom="3748" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="227444952" totalbytes="977374208" percent="23" >
+    <soa freebytes="227444952" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="123" totalid="128" intervalms="657771.817">
+    <flipped objectcount="376395" bytes="47115488" />
+    <tenured objectcount="1687" bytes="170456" />
+    <finalization objectsqueued="826" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="656585568" totalbytes="710079488" percent="92" tenureage="14" />
+    <tenured freebytes="227182808" totalbytes="977374208" percent="23" >
+      <soa freebytes="227182808" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="115.317" />
+  </gc>
+  <nursery freebytes="656520016" totalbytes="710079488" percent="92" />
+  <tenured freebytes="227182808" totalbytes="977374208" percent="23" >
+    <soa freebytes="227182808" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="37285" weak="49842" phantom="3710" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="115.597" />
+</af>
+
+<af type="nursery" id="124" timestamp="Feb 28 18:38:43 2013" intervalms="494272.782">
+  <minimum requested_bytes="65552" />
+  <time exclusiveaccessms="0.090" meanexclusiveaccessms="0.090" threads="0" lastthreadtid="0x000000000545A700" />
+  <refs soft="38265" weak="113691" phantom="3747" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="227117448" totalbytes="977374208" percent="23" >
+    <soa freebytes="227117448" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="124" totalid="129" intervalms="494272.994">
+    <flipped objectcount="389026" bytes="48273624" />
+    <tenured objectcount="1927" bytes="134728" />
+    <finalization objectsqueued="686" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="655717848" totalbytes="710079488" percent="92" tenureage="14" />
+    <tenured freebytes="226855304" totalbytes="977374208" percent="23" >
+      <soa freebytes="226855304" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="130.348" />
+  </gc>
+  <nursery freebytes="655652296" totalbytes="710079488" percent="92" />
+  <tenured freebytes="226855304" totalbytes="977374208" percent="23" >
+    <soa freebytes="226855304" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38190" weak="49852" phantom="3709" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="130.656" />
+</af>
+
+<af type="nursery" id="125" timestamp="Feb 28 18:49:17 2013" intervalms="634773.839">
+  <minimum requested_bytes="880" />
+  <time exclusiveaccessms="0.216" meanexclusiveaccessms="0.216" threads="0" lastthreadtid="0x000000000399A900" />
+  <refs soft="38286" weak="70636" phantom="3752" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="226848200" totalbytes="977374208" percent="23" >
+    <soa freebytes="226848200" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="125" totalid="130" intervalms="634774.060">
+    <flipped objectcount="398949" bytes="50692448" />
+    <tenured objectcount="310" bytes="23384" />
+    <finalization objectsqueued="795" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="652907816" totalbytes="710079488" percent="91" tenureage="14" />
+    <tenured freebytes="226717128" totalbytes="977374208" percent="23" >
+      <soa freebytes="226717128" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="119.048" />
+  </gc>
+  <nursery freebytes="652906936" totalbytes="710079488" percent="91" />
+  <tenured freebytes="226717128" totalbytes="977374208" percent="23" >
+    <soa freebytes="226717128" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38190" weak="49851" phantom="3714" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="119.481" />
+</af>
+
+<af type="nursery" id="126" timestamp="Feb 28 18:59:38 2013" intervalms="620516.738">
+  <minimum requested_bytes="432" />
+  <time exclusiveaccessms="0.117" meanexclusiveaccessms="0.117" threads="0" lastthreadtid="0x000000000169B700" />
+  <refs soft="38205" weak="71280" phantom="3760" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="226705216" totalbytes="977374208" percent="23" >
+    <soa freebytes="226705216" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="126" totalid="131" intervalms="620516.956">
+    <flipped objectcount="408485" bytes="52813104" />
+    <tenured objectcount="2674" bytes="227616" />
+    <finalization objectsqueued="826" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="651281144" totalbytes="710079488" percent="91" tenureage="14" />
+    <tenured freebytes="226443072" totalbytes="977374208" percent="23" >
+      <soa freebytes="226443072" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="121.871" />
+  </gc>
+  <nursery freebytes="651215608" totalbytes="710079488" percent="91" />
+  <tenured freebytes="226443072" totalbytes="977374208" percent="23" >
+    <soa freebytes="226443072" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38190" weak="49861" phantom="3724" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="122.222" />
+</af>
+
+<af type="nursery" id="127" timestamp="Feb 28 19:08:26 2013" intervalms="527499.337">
+  <minimum requested_bytes="304" />
+  <time exclusiveaccessms="0.127" meanexclusiveaccessms="0.076" threads="1" lastthreadtid="0x0000000003DED400" />
+  <refs soft="38281" weak="113565" phantom="3731" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="226413504" totalbytes="977374208" percent="23" >
+    <soa freebytes="226413504" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="127" totalid="132" intervalms="527499.569">
+    <flipped objectcount="405382" bytes="52476064" />
+    <tenured objectcount="14070" bytes="1260120" />
+    <finalization objectsqueued="736" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="651586736" totalbytes="710079488" percent="91" tenureage="14" />
+    <tenured freebytes="225059840" totalbytes="977374208" percent="23" >
+      <soa freebytes="225059840" totalbytes="977374208" percent="23" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="128.371" />
+  </gc>
+  <nursery freebytes="651521200" totalbytes="710079488" percent="91" />
+  <tenured freebytes="225059840" totalbytes="977374208" percent="23" >
+    <soa freebytes="225059840" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38190" weak="49851" phantom="3727" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="128.718" />
+</af>
+
+<af type="nursery" id="128" timestamp="Feb 28 19:32:24 2013" intervalms="1438281.000">
+  <minimum requested_bytes="40" />
+  <time exclusiveaccessms="0.114" meanexclusiveaccessms="0.114" threads="0" lastthreadtid="0x0000000003C01400" />
+  <refs soft="38198" weak="69631" phantom="3735" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="225035216" totalbytes="977374208" percent="23" >
+    <soa freebytes="225035216" totalbytes="977374208" percent="23" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="128" totalid="133" intervalms="1438281.220">
+    <flipped objectcount="364509" bytes="56414544" />
+    <tenured objectcount="73618" bytes="7249048" />
+    <finalization objectsqueued="1771" />
+    <scavenger tiltratio="89" />
+    <nursery freebytes="642753640" totalbytes="710079488" percent="90" tenureage="14" />
+    <tenured freebytes="217553504" totalbytes="977374208" percent="22" >
+      <soa freebytes="217553504" totalbytes="977374208" percent="22" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="146.574" />
+  </gc>
+  <nursery freebytes="642751592" totalbytes="710079488" percent="90" />
+  <tenured freebytes="217553504" totalbytes="977374208" percent="22" >
+    <soa freebytes="217553504" totalbytes="977374208" percent="22" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38187" weak="49854" phantom="3721" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="146.909" />
+</af>
+
+<af type="nursery" id="129" timestamp="Feb 28 19:58:18 2013" intervalms="1553917.830">
+  <minimum requested_bytes="160" />
+  <time exclusiveaccessms="0.097" meanexclusiveaccessms="0.097" threads="0" lastthreadtid="0x0000000003BACA00" />
+  <refs soft="38393" weak="99992" phantom="3842" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="710079488" percent="0" />
+  <tenured freebytes="217516592" totalbytes="977374208" percent="22" >
+    <soa freebytes="217516592" totalbytes="977374208" percent="22" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="129" totalid="134" intervalms="1553918.055">
+    <contraction type="nursery" amount="8013824" newsize="702867456" timetaken="0.020" reason="insufficient time being spent scavenging" />
+    <flipped objectcount="388051" bytes="57022784" />
+    <tenured objectcount="12006" bytes="951936" />
+    <finalization objectsqueued="1982" />
+    <scavenger tiltratio="90" />
+    <nursery freebytes="634290832" totalbytes="702867456" percent="90" tenureage="14" />
+    <tenured freebytes="216461840" totalbytes="977374208" percent="22" >
+      <soa freebytes="216461840" totalbytes="977374208" percent="22" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="121.014" />
+  </gc>
+  <nursery freebytes="634225296" totalbytes="702867456" percent="90" />
+  <tenured freebytes="216461840" totalbytes="977374208" percent="22" >
+    <soa freebytes="216461840" totalbytes="977374208" percent="22" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38185" weak="49848" phantom="3732" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="125.736" />
+</af>
+
+<af type="nursery" id="130" timestamp="Feb 28 20:23:18 2013" intervalms="1499483.928">
+  <minimum requested_bytes="24" />
+  <time exclusiveaccessms="0.095" meanexclusiveaccessms="0.095" threads="0" lastthreadtid="0x000000000545A700" />
+  <refs soft="38258" weak="105034" phantom="3778" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="702867456" percent="0" />
+  <tenured freebytes="216418064" totalbytes="977374208" percent="22" >
+    <soa freebytes="216418064" totalbytes="977374208" percent="22" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="130" totalid="135" intervalms="1499488.556">
+    <flipped objectcount="312653" bytes="50750856" />
+    <tenured objectcount="103074" bytes="5848560" />
+    <finalization objectsqueued="1910" />
+    <scavenger tiltratio="90" />
+    <nursery freebytes="640884128" totalbytes="702867456" percent="91" tenureage="14" />
+    <tenured freebytes="210517760" totalbytes="977374208" percent="21" >
+      <soa freebytes="210517760" totalbytes="977374208" percent="21" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="123.422" />
+  </gc>
+  <nursery freebytes="640818592" totalbytes="702867456" percent="91" />
+  <tenured freebytes="210517760" totalbytes="977374208" percent="21" >
+    <soa freebytes="210517760" totalbytes="977374208" percent="21" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38185" weak="49851" phantom="3734" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="123.766" />
+</af>
+
+<af type="nursery" id="131" timestamp="Feb 28 20:53:38 2013" intervalms="1819815.101">
+  <minimum requested_bytes="176" />
+  <time exclusiveaccessms="0.087" meanexclusiveaccessms="0.087" threads="0" lastthreadtid="0x00000000005BA100" />
+  <refs soft="38858" weak="104017" phantom="3896" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <nursery freebytes="0" totalbytes="702867456" percent="0" />
+  <tenured freebytes="209995000" totalbytes="977374208" percent="21" >
+    <soa freebytes="209995000" totalbytes="977374208" percent="21" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <gc type="scavenger" id="131" totalid="136" intervalms="1819815.363">
+    <flipped objectcount="321226" bytes="56962232" />
+    <tenured objectcount="13211" bytes="1048104" />
+    <finalization objectsqueued="2451" />
+    <scavenger tiltratio="90" />
+    <nursery freebytes="632181688" totalbytes="702867456" percent="89" tenureage="14" />
+    <tenured freebytes="208940232" totalbytes="977374208" percent="21" >
+      <soa freebytes="208940232" totalbytes="977374208" percent="21" />
+      <loa freebytes="0" totalbytes="0" percent="0" />
+    </tenured>
+    <time totalms="105.466" />
+  </gc>
+  <nursery freebytes="632179640" totalbytes="702867456" percent="89" />
+  <tenured freebytes="208940232" totalbytes="977374208" percent="21" >
+    <soa freebytes="208940232" totalbytes="977374208" percent="21" />
+    <loa freebytes="0" totalbytes="0" percent="0" />
+  </tenured>
+  <refs soft="38746" weak="49876" phantom="3733" dynamicSoftReferenceThreshold="9" maxSoftReferenceThreshold="32" />
+  <time totalms="105.984" />
+</af>
+</verbosegc>
