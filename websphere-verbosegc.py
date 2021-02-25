@@ -11,7 +11,11 @@ Useful if you want to import this metrics to your load testing tool for further 
 
 TODO
 - Extract metrics for the heap (i.e. nursery & tenured space) state before the collection and after the collection 
-- Extract the Heap occupancy details after GC 
+- Extract the Heap occupancy details after GC
+
+Links
+- https://gauravrohatgi.files.wordpress.com/2014/01/was-tuning.pdf
+
 '''
 
 import xml.etree.ElementTree as ET
