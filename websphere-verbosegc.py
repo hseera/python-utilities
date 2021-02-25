@@ -36,12 +36,34 @@ def parse_verbosegc_data(verbosegc_xml):
             df_dict['time'] = date_time[2]
             df_dict['type'] = item.attrib['type']
             df_dict['intervalms'] = item.attrib['intervalms']
-        
+            nursery_counter = False
+            tenured_counter = False
             for child in item:
                 if 'totalms' in child.attrib:
                     df_dict['totalms'] = child.attrib['totalms']
                 if 'requested_bytes' in child.attrib:
                     df_dict['requested_bytes'] = child.attrib['requested_bytes']
+                    
+                if ('freebytes' in child.attrib and 'nursery' in child.tag  and nursery_counter == False):
+                    before = 'beforegc_'+ child.tag + '_freebytes'
+                    df_dict[before] = child.attrib['freebytes']
+                    nursery_counter = True
+                elif ('freebytes' in child.attrib and 'nursery' in child.tag and nursery_counter == True):
+                    after = 'aftergc_'+ child.tag + '_freebytes'
+                    df_dict[after] = child.attrib['freebytes']
+                    nursery_counter = False
+                    
+                if ('freebytes' in child.attrib and 'tenured' in child.tag  and tenured_counter == False):
+                    before = 'beforegc_'+ child.tag + '_freebytes'
+                    df_dict[before] = child.attrib['freebytes']
+                    tenured_counter = True
+                elif ('freebytes' in child.attrib and  'tenured' in child.tag and tenured_counter == True):
+                    after = 'aftergc_'+ child.tag + '_freebytes'
+                    df_dict[after] = child.attrib['freebytes']
+                    tenured_counter = False
+                            
+                if ('gc' in child.tag):
+                    df_dict['gc_intervalms'] = child.attrib['intervalms']
             
             verbosegc_list.append(df_dict)    
         
