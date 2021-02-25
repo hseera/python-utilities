@@ -31,7 +31,7 @@ def parse_verbosegc_data(verbosegc_xml):
         for item in tree.findall ('./af'):
             df_dict = OrderedDict()
             date_time = (item.attrib['timestamp']).split()
-            date = datetime(int(date_time[3]),strptime(date_time[0],'%b').tm_mon,int(date_time[1]))
+            date = datetime(int(date_time[3]),strptime(date_time[0],'%b').tm_mon,int(date_time[1])) #converting month (i.e. 'Feb') to month number using strptime
             df_dict['date'] = date.strftime("%d/%m/%Y")
             df_dict['time'] = date_time[2]
             df_dict['type'] = item.attrib['type']
