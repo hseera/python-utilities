@@ -14,9 +14,9 @@ Currently the script only caters for packets that have IP layer.
 It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
 '''
 
-def convert_trace_file(FILE, graph_status, heatmap_status):
+def convert_trace_file(pcap_file,heatmap_status, graph_status ):
     try:
-        packets = PcapReader(FILE) # network trace file
+        packets = PcapReader(pcap_file) # network trace file
         
         packet_list = []
             
@@ -94,13 +94,13 @@ def network_graph(df):
     
     
 def main():
-    FILE = './sample.pcap'
-    
+    PCAP_FILE = './sample.pcap' #replace it with your pcap/pcapng file
+     
     GRAPH_PLOT = False #Set this to true if you want graph chart. Default is false.
     
     HEATMAP_PLOT = True #Set this to False if you don't want heat chart. Default is True.
     
-    convert_trace_file(FILE, GRAPH_PLOT, HEATMAP_PLOT)
+    convert_trace_file(PCAP_FILE, HEATMAP_PLOT, GRAPH_PLOT)
     
 if __name__ == "__main__":
     main()
