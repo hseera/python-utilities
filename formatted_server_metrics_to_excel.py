@@ -16,25 +16,27 @@ Therefore this script will require minor modification to cater for your scenario
 import pandas as pd
 
 def save_data_to_xls(file_to_read):
-    
-    df = pd.read_excel(file_to_read)
-    
-    '''
-    # For each unique name in the column "TARGET_NAME", extract all the data for it and generate a pivot table.
-    Once pivot table is generated, save that data into the same xlsx file as a new sheet. The sheet name is the TARGET_NAME.
-    '''
-    for target in df.TARGET_NAME.unique(): 
-        x = df.loc[df['TARGET_NAME'] == target] #filter out all the rows for which the label column does not contain value GetDistribution
+    try:        
+        df = pd.read_excel(file_to_read)
         
-        res = x.pivot_table(index=['TimeStamp','METRIC_COLUMN'], values='VALUE', aggfunc='sum').reset_index()
-        pivot = res.pivot(index='TimeStamp', columns='METRIC_COLUMN', values='VALUE')
-        pivot = pivot.fillna(0) # fill all cells with NaN with value 0. Check it as you see fit for your usecase.
-        
-        writer = pd.ExcelWriter(file_to_read,  engine='openpyxl', mode='a') #engine='xlsxwriter'
-        pivot.to_excel(writer, index=True, sheet_name=target)
-        writer.bookworksheet = writer.sheets[target]
-        writer.save()
-        writer.close()    
+        '''
+        For each unique name in the column "TARGET_NAME", extract all the data for it and generate a pivot table.
+        Once pivot table is generated, save that data into the same xlsx file as a new sheet. The sheet name is the TARGET_NAME.
+        '''
+        for target in df.TARGET_NAME.unique(): 
+            x = df.loc[df['TARGET_NAME'] == target] #filter out all the rows for which the label column does not contain value GetDistribution
+            
+            res = x.pivot_table(index=['TimeStamp','METRIC_COLUMN'], values='VALUE', aggfunc='sum').reset_index()
+            pivot = res.pivot(index='TimeStamp', columns='METRIC_COLUMN', values='VALUE')
+            pivot = pivot.fillna(0) # fill all cells with NaN with value 0. Change it as you see fit for your usecase.
+            
+            writer = pd.ExcelWriter(file_to_read,  engine='openpyxl', mode='a') #engine='xlsxwriter'
+            pivot.to_excel(writer, index=True, sheet_name=target)
+            writer.bookworksheet = writer.sheets[target]
+            writer.save()
+            writer.close()
+    except Exception as e:
+        print(e)
    
 def main():
     FILE_TO_READ = './sample_files/log-file-database.xlsx' #sample data file
