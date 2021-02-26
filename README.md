@@ -12,7 +12,7 @@ However, with slight modification(/in some cases none) can be used in other fiel
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Flow](#12-network-conversation-flow)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
-|[17: File Splitter](#17-file-splitter)|[18 Locate File](#18-locate-file)|[19 Websphere Verbosegc](#19-websphere-verbosegc)||
+|[17: File Splitter](#17-file-splitter)|[18 Locate File](#18-locate-file)|[19 Websphere Verbosegc](#19-websphere-verbosegc)|[20 Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 
 
 # [1: Merge Columns](#1-merge-columns)
@@ -125,3 +125,11 @@ Save highlevel websphere verbosegc metrics into csv. Useful when you want to imp
 Assupmtion is that you do have any other means (i.e apm tools, sitescope etc) to view this data with other application & system metrics.  
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/verbosegc.png)
+
+# [20 Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)
+There are situations when you get metrics data for all the servers in an excel file in a column format.   
+However, you would like to have metrics data for each server in a separate sheet. 
+Also properly formated & pivoted so it makes it easy to analyze the data or generate graphs out of it.
+This script will help you just do that. It takes data in a column format and saves pivoted data of each system/application into a separate sheet.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/formatted-server-metrics.png)
