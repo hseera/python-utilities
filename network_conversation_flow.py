@@ -6,14 +6,15 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
 import networkx as nx
-
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 '''
 Currently the script only caters for packets that have IP layer. 
 It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
 '''
 
-def convert_trace_file(FILE, status):
+def convert_trace_file(FILE, graph_status, heatmap_status):
     try:
         packets = PcapReader(FILE) # network trace file
         
@@ -32,11 +33,12 @@ def convert_trace_file(FILE, status):
         
         res = df.pivot_table(index=['src', 'dst'],values='length' , aggfunc='sum').reset_index()
         
-        pivot = res.pivot(index='src', columns='dst', values='length')
+        pivot = res.pivot(index='src', columns='dst', values='length')       
         
-        network_traffic_heatmap(pivot)
-        
-        if (status == True):
+        if (heatmap_status == True):
+            network_traffic_heatmap(pivot)
+            
+        if (graph_status == True):
             network_graph(res)
         
     except Exception as e:
@@ -94,9 +96,11 @@ def network_graph(df):
 def main():
     FILE = './sample.pcap'
     
-    NETWORK_PLOT = False #Set this to true if you want graph chart. Default is false.
+    GRAPH_PLOT = False #Set this to true if you want graph chart. Default is false.
     
-    convert_trace_file(FILE, NETWORK_PLOT)
+    HEATMAP_PLOT = True #Set this to False if you don't want heat chart. Default is True.
+    
+    convert_trace_file(FILE, GRAPH_PLOT, HEATMAP_PLOT)
     
 if __name__ == "__main__":
     main()
