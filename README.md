@@ -6,8 +6,8 @@
 Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
 The readme page will continue to get updated as and when I add a new utility to the repo.
 
-**Note:** Most of these utilities are focused on performance testing/engineering. 
-However, with slight modification(/in some cases none) can be used in other fields/areas too.
+**Note:** Most of these utilities are focused around performance testing/engineering. 
+However, with some modifications(/in some cases none) can be used in other fields/areas too.
 
 
 |Utility Link |Utility Link|Utility Link|Utility Link|
