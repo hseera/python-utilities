@@ -14,7 +14,7 @@ Currently the script only caters for packets that have IP layer.
 It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
 '''
 
-def convert_trace_file(pcap_file,heatmap_status, graph_status ):
+def convert_pcap_file(pcap_file,heatmap_status, graph_status ):
     try:
         packets = PcapReader(pcap_file) # network trace file
         
@@ -100,7 +100,7 @@ def main():
     
     HEATMAP_PLOT = True #Set this to False if you don't want heat chart. Default is True.
     
-    convert_trace_file(PCAP_FILE, HEATMAP_PLOT, GRAPH_PLOT)
+    convert_pcap_file(PCAP_FILE, HEATMAP_PLOT, GRAPH_PLOT)
     
 if __name__ == "__main__":
     main()
