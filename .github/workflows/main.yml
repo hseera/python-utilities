@@ -2,46 +2,30 @@
 
 name: CI
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the main branch
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
   schedule:
     # Run this once per day (hours in UTC time zone).
     # Towards the end of the day for keeping the last
     # data point meaningful.
     - cron: "* 23 * * *"
+  workflow_dispatch: # Allow for running this manually.
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  build:
-    # The type of runner that the job will run on
+  j1:
     name: github-repo-stats
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
-      - uses: jgehrcke/github-repo-stats@HEAD
-
-      # Runs a single command using the runners shell
       - name: GHRS
+        uses: actions/checkout@v2
+        uses: jgehrcke/github-repo-stats@HEAD
         with:
           # Define the target repository, the repo to fetch
           # stats for and to generate the report for.
           # Leave this undefined when stats repository
           # and data repository should be the same.
-         repository: jgehrcke/covid-19-germany-gae
+          repository: hseera/python-utilities
           # Required token privileges: Can read the target
           # repo, and can push to the repository this
           # workflow file lives in (to store data and
           # the report files).
-         ghtoken: ${{ secrets.SECRET_TOKEN }}
+          ghtoken: ${{ secrets.SECRET_TOKEN }}
