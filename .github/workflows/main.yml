@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: GHRS
-        uses: jgehrcke/github-repo-stats@HEAD
+        uses: jgehrcke/github-repo-stats@v1.0.0
         with:
           # Define the target repository, the repo to fetch
           # stats for and to generate the report for.
