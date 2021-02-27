@@ -1,7 +1,10 @@
 # Python Utilities
 ![Language Python](https://img.shields.io/badge/%20Language-python-blue.svg) [![MIT License](http://img.shields.io/badge/License-MIT-blue.png)](LICENSE)
-
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/hseera/python-utilities.svg)](https://github.com/hseera/python-utilities/commits/) [![GitHub Size](https://img.shields.io/github/repo-size/hseera/python-utilities.svg)](https://github.com/hseera/python-utilities/)
+
+[![Open GitHub Issue](https://img.shields.io/badge/Open-Incident-brightgreen.svg)](https://github.com/hseera/python-utilities/issues/new/choose)
+[![GitHub Open Issues](https://img.shields.io/github/issues/hseera/python-utilities?color=purple)](https://github.com/hseera/python-utilities/issues?q=is%3Aopen+is%3Aissue)
+[![GitHub Closed Issues](https://img.shields.io/github/issues-closed/hseera/python-utilities?color=purple)](https://github.com/hseera/python-utilities/issues?q=is%3Aclosed+is%3Aissue)
 
 Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
 The readme page will continue to get updated as and when I add a new utility to the repo.
