@@ -28,4 +28,3 @@ jobs:
           # workflow file lives in (to store data and
           # the report files).
           ghtoken: ${{ secrets.SECRET_TOKEN }}
-          path: data/
