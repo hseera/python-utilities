@@ -8,7 +8,6 @@ on:
   push:
     branches: [ main ]
   pull_request:
-on:
   schedule:
     # Run this once per day (hours in UTC time zone).
     # Towards the end of the day for keeping the last
