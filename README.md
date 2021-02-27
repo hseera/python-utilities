@@ -133,3 +133,8 @@ Also properly formated & pivoted so it makes it easy to analyze the data or gene
 This script will help you just do that. It takes data in a column format and saves pivoted data of each system/application into a separate sheet.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/formatted-server-metrics.png)
+
+
+
+#### Author
+[<img id="github" src="../images/github.png" width="50" a="https://github.com/hseera/">](https://github.com/hseera/)    [<img src="../images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/hpseera) [<img id="twitter" src="../images/twitter.png" width="50" a="twitter.com/HarinderSeera/">](https://twitter.com/@HarinderSeera)
