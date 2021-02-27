@@ -141,7 +141,7 @@ This script will help you just do that. It takes data in a column format and sav
 
 # [21: Merge Columns](#21-merge-columns)
 This script merges multiple columns in a file to two columns. One column with the values and other the header names.
-Useful when you want to do analysis (i.e. tukey test on the data set) using python.
+Useful when you want to do analysis (i.e. Tukey test on the data set) using python.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/merge-columns.png)
 
