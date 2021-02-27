@@ -32,4 +32,4 @@ jobs:
           # repo, and can push to the repository this
           # workflow file lives in (to store data and
           # the report files).
-          ghtoken: ${{SECRET_TOKEN}}
+          #ghtoken: ${{SECRET_TOKEN}}
