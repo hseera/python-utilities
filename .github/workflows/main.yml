@@ -23,7 +23,7 @@ jobs:
           # stats for and to generate the report for.
           # Leave this undefined when stats repository
           # and data repository should be the same.
-          repository: hseera/python-utilities
+          repository: undefined
           # Required token privileges: Can read the target
           # repo, and can push to the repository this
           # workflow file lives in (to store data and
