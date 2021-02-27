@@ -16,8 +16,8 @@ However, with some modifications(/in some cases none) can be used in other field
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Flow](#12-network-conversation-flow)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
-|[17: File Splitter](#17-file-splitter)|[18 Locate File](#18-locate-file)|[19 Websphere Verbosegc](#19-websphere-verbosegc)|[20 Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
-
+|[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
+|[21: Merge Columns](#21-merge-columns)||||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -119,19 +119,19 @@ Useful when you want to have unique data for the same script running across mult
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
 
-# [18 Locate File](#18-locate-file)
+# [18: Locate File](#18-locate-file)
 Recursively search for a file in a folder and all its subfolders. Print out the locations where that file is located.
 Useful when you don't want to scroll through all the folders and files to locate the file you need.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/find-files.png)
 
-# [19 Websphere Verbosegc](#19-websphere-verbosegc)
+# [19: Websphere Verbosegc](#19-websphere-verbosegc)
 Save highlevel websphere verbosegc metrics into csv. Useful when you want to import the data to a load test tool for analyses & correlate with other metrics.
 Assupmtion is that you do have any other means (i.e apm tools, sitescope etc) to view this data with other application & system metrics.  
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/verbosegc.png)
 
-# [20 Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)
+# [20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)
 There are situations when you get metrics data for all the servers in an excel file in a column format.   
 However, you would like to have metrics data for each server in a separate sheet. 
 Also properly formated & pivoted so it makes it easy to analyze the data or generate graphs out of it.
@@ -139,6 +139,11 @@ This script will help you just do that. It takes data in a column format and sav
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/formatted-server-metrics.png)
 
+# [21: Merge Columns](#21-merge-columns)
+This script merges multiple columns in a file to two columns. One column with the values and other the header names.
+Useful when you want to do analysis (i.e. tukey test on the data set) using python.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/merge-columns.png)
 
 ## Contribute
 
