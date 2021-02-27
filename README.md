@@ -1,4 +1,6 @@
 # Python Utilities
+![Language Python](https://img.shields.io/badge/%20Language-python-blue.svg) [![MIT License](http://img.shields.io/badge/License-MIT-blue.png)](LICENSE)
+
 Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
 The readme page will continue to get updated as and when I add a new utility to the repo.
 
@@ -14,6 +16,7 @@ However, with slight modification(/in some cases none) can be used in other fiel
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18 Locate File](#18-locate-file)|[19 Websphere Verbosegc](#19-websphere-verbosegc)|[20 Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 
+----
 
 # [1: Merge Columns](#1-merge-columns)
 This script merges columns from different files together and generates a new file.
