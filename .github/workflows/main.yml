@@ -15,7 +15,6 @@ jobs:
     name: github-repo-stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: GHRS
         uses: jgehrcke/github-repo-stats@HEAD
         with:
@@ -29,3 +28,4 @@ jobs:
           # workflow file lives in (to store data and
           # the report files).
           ghtoken: ${{ secrets.SECRET_TOKEN }}
+          path: data/
