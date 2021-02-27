@@ -3,10 +3,6 @@
 [![GitHub Size](https://img.shields.io/github/repo-size/hseera/python-utilities.svg)](https://github.com/hseera/python-utilities/)
 [![GitHub Last Commits](https://img.shields.io/github/last-commit/hseera/python-utilities.svg)](https://github.com/hseera/python-utilities/commits/)
 
-[![Open GitHub Issue](https://img.shields.io/badge/Open-Incident-brightgreen.svg)](https://github.com/hseera/python-utilities/issues/new/choose)
-[![GitHub Open Issues](https://img.shields.io/github/issues/hseera/python-utilities?color=purple)](https://github.com/hseera/python-utilities/issues?q=is%3Aopen+is%3Aissue)
-[![GitHub Closed Issues](https://img.shields.io/github/issues-closed/hseera/python-utilities?color=purple)](https://github.com/hseera/python-utilities/issues?q=is%3Aclosed+is%3Aissue)
-
 Different python utility scripts to help automate mundane/repetitive/specific performance testing tasks.
 The readme page will continue to get updated as and when I add a new utility to the repo.
 
@@ -146,7 +142,7 @@ This script will help you just do that. It takes data in a column format and sav
 
 ## Contribute
 
-Contribution is welcomed. Issues and pull requests are welcomed too.
+Contribution is welcomed. Pull requests are welcomed too.
 
 ## Author
 [<img id="github" src="./images/github.png" width="50" a="https://github.com/hseera/">](https://github.com/hseera/)    [<img src="./images/linkedin.png" style="max-width:100%;" >](https://www.linkedin.com/in/hpseera) [<img id="twitter" src="./images/twitter.png" width="50" a="twitter.com/HarinderSeera/">](https://twitter.com/@HarinderSeera) <a href="https://twitter.com/intent/follow?screen_name=harinderseera"> <img src="https://img.shields.io/twitter/follow/harinderseera.svg?label=Follow%20@harinderseera" alt="Follow @harinderseera" /> </a>          [![GitHub followers](https://img.shields.io/github/followers/hseera.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/hseera?tab=followers)
