@@ -17,7 +17,7 @@ plt.figure(figsize=(10,6))
 
 #parameters for the histogram. Update the values when you want to plot multiple histogram together
 #kwargs = dict(histtype='step', stacked=False, alpha=0.7, fill=False, bins=500)
-kwargs = dict(histtype='stepfilled', stacked=False, alpha=0.7, fill=True, bins=500)
+kwargs = dict(histtype='stepfilled', stacked=False, alpha=0.7, fill=True, bins=20000)
 
 #define historgram label
 plt.xlabel('Response Time (ms)')
