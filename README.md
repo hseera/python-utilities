@@ -145,8 +145,8 @@ Useful when you want to do analysis (i.e. Tukey test on the data set) using pyth
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/merge-columns.png)
 
-[22: Arrange Files](#22-arrange-files)
-This script arranges files in appropriate folders so it makes it easy to find them when needed. 
+# [22: Arrange Files](#22-arrange-files)
+This script arranges files in the appropriate folder so it easy to find them when needed. 
 Useful when you want to have seperate folder for data, scripts, scenario & result. 
 Also useful when you want to arrange all the files in your download folder which might have images, music, executable, video files.
 
