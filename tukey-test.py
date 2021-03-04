@@ -19,6 +19,8 @@ def tukey_test(file, variable_name):
         
         df = pd.read_csv(file) # read the file
         
+        #df_copy = df.copy() #create a dataframe copy. K2 Outliers values will be removed from it
+        
         first_quartile = df[variable_name].quantile(0.25) #q1
         third_quartile = df[variable_name].quantile(0.75) #q3
          
@@ -32,23 +34,25 @@ def tukey_test(file, variable_name):
         lower_outer_fence = first_quartile - k2*interquartile_range
         upper_outer_fence = third_quartile + k2*interquartile_range
         
-        print("Far Outlier Range (k=%s): [%s, %s]\n" %(k2,lower_outer_fence,upper_outer_fence))
+        print("Outlier Range (k=%s): [%s, %s]\n" %(k2,lower_outer_fence,upper_outer_fence))
         
         for index, x in enumerate(df[variable_name]):
             if x >= upper_inner_fence or x <= lower_inner_fence:
                 outliers.append(x)
             if x >= upper_outer_fence or x <= lower_outer_fence: 
+                #df_copy.drop(df_copy.index[df_copy[variable_name] == x], inplace = True) #drop values that are out of range
                 far_outliers.append(x)
+                        
         return k1, k2, sorted(outliers), sorted(far_outliers)
     except Exception as e:
         print(e)
-    
+   
 
 def main():
     FILE = "./sample_files/tukey_test.csv" #replace with your file name
     k1, k2, outliers, far_outliers = tukey_test(FILE, "results_001")
-    print("Potential outliers not in range (k=%s): %s\n" %(k1, outliers))
-    print("Potential far out outliers not in range (k=%s): %s\n" %(k2,far_outliers))
+    print("Potential outliers not in (k=%s) range: \n%s\n" %(k1, outliers))
+    print("Potential outliers not in (k=%s) range: \n%s" %(k2,far_outliers))
     
 if __name__ == "__main__":
     main()
