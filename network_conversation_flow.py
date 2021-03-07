@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore", category=UserWarning)
 
 '''
 Currently the script only caters for packets that have IP layer. 
-It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP layer. 
+It filters out packets such as simple service discovery protocol (ssdp)/ Address Resloution Protocol (ARP) as it doesn't contain the IP information. 
 '''
 
 def convert_pcap_file(pcap_file,heatmap_status, graph_status ):
