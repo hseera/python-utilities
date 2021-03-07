@@ -14,7 +14,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |:-------------------------|:---------------|:------------------|:------------------|
 |[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
-|[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Flow](#12-network-conversation-flow)|
+|[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Heatmap](#12-network-conversation-heatmap)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)||
@@ -82,7 +82,7 @@ Generate random ABN and ACN numbers. Useful for performance/functional test scen
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/abn-acn.png)
 
-# [12: Network Conversation Flow](#12-network-conversation-flow)
+# [12: Network Conversation Heatmap](#12-network-conversation-heatmap)
 Convert network conversation captured in the trace file into a heatmap. Useful when you have a lot of conversations captured. 
 This script makes it easy to visualize the conversations, if you are not comfortable reading/trolling the Wireshark network conversation view.
 It also has an option to generate a graph too. However, the code to generate the graph will require a little modification to cater to too many conversations. 
