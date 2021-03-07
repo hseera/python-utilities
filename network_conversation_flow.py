@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from matplotlib.colors import LinearSegmentedColormap
 import networkx as nx
+from matplotlib.offsetbox import AnchoredText
 import warnings
 warnings.filterwarnings("ignore", category=UserWarning)
 
@@ -36,16 +37,16 @@ def convert_pcap_file(pcap_file,heatmap_status, graph_status ):
         pivot = res.pivot(index='src', columns='dst', values='length')       
         
         if (heatmap_status == True):
-            network_traffic_heatmap(pivot)
+            network_traffic_heatmap(pivot, res['src'].nunique(),res['dst'].nunique())
             
         if (graph_status == True):
-            network_graph(res)
+            network_graph(res, res['src'].nunique(),res['dst'].nunique())
         
     except Exception as e:
         print(e)
 
 
-def network_traffic_heatmap(pivot_data):
+def network_traffic_heatmap(pivot_data, unique_src, unique_dst):
     try:
         
         fig, ax = plt.subplots(figsize=(14,10))
@@ -62,6 +63,9 @@ def network_traffic_heatmap(pivot_data):
                     )
         
         ax.set_title('Network Conversation Flow & Bytes Transferred')
+        
+        anc = AnchoredText("src = {}, dst = {}".format(unique_src,unique_dst), loc="upper right", frameon=True)
+        ax.add_artist(anc)
         
         ax.set_facecolor('lightgrey')
           
@@ -83,12 +87,14 @@ def network_traffic_heatmap(pivot_data):
         print(e)
 
 
-def network_graph(df):
+def network_graph(df, unique_src, unique_dst):
     G = nx.Graph()
     G = nx.from_pandas_edgelist(df, source='src', target='dst', edge_attr=True, create_using=nx.DiGraph())
     fig, ax = plt.subplots(figsize=(14,10))
     ax.set_title('Network Conversation Flow')
     nx.draw_networkx(G)
+    anc = AnchoredText("src = {}, dst = {}".format(unique_src,unique_dst), loc="upper right", frameon=True)
+    ax.add_artist(anc)
     plt.show()
     fig.savefig("network-conversation-flow.png",bbox_inches = "tight")
     
