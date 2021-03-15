@@ -17,7 +17,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Heatmap](#12-network-conversation-heatmap)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
-|[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)||
+|[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -158,6 +158,11 @@ Useful when you just want to know the outlier values.
 Also useful when extreme outliers distort the visualization and therefore you want to remove them temporarily to analyze the rest of the data.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/outliers.png)
+
+# [24: Basic Statistics](#24-basic-statistics)
+Generate basic statistics. Useful when you want to generate & compare statistics of different test runs.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/basic-statistics.png)
 
 ## Contribute
 
