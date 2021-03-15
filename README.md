@@ -160,7 +160,8 @@ Also useful when extreme outliers distort the visualization and therefore you wa
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/outliers.png)
 
 # [24: Basic Statistics](#24-basic-statistics)
-Generate basic statistics. Useful when you want to generate & compare statistics of different test runs.
+Generate basic statistics. Useful when you want to generate & compare statistics of different test runs. 
+Saves time of not filling in all the formulas in excel.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/basic-statistics.png)
 
