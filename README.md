@@ -167,12 +167,12 @@ Saves time of not filling in all the formulas in excel.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/basic-statistics.png)
 
 # [25: Generate Name](#25-generate-name)
-Generate list of random names. You have option to generate:
+Generate list of random names. Useful when you want to have alot of random names for testing purpose. Following options are available:
 1. First name Only
 2. First & Last name
 3. Full name
 4. Full name but abbreviated Middle name 
-Useful when you want to have alot of random names for testing purpose.
+
   
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/generate-name.png)
 
