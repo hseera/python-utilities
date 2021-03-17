@@ -18,6 +18,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
+|[25: Generate Name](#25-generate-name)||||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -164,6 +165,16 @@ Generate basic statistics. Useful when you want to generate & compare statistics
 Saves time of not filling in all the formulas in excel.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/basic-statistics.png)
+
+# [25: Generate Name](#25-generate-name)
+Generate list of random names. You have option to generate:
+1: First name Only
+2: First & Last name
+3: Full name
+4: Full name but abbreviated Middle name 
+Useful when you want to have alot of random names for testing purpose.
+  
+![Data](https://github.com/hseera/python-utilities/blob/main/images/generate-name.png)
 
 ## Contribute
 
