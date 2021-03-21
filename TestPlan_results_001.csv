@@ -1,4 +1,4 @@
-timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,Latency,IdleTime,Connect
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThread,Latency,IdleTime,Connect
 1.60712E+12,6049,GetWorkload,200,OK,Thread Group 1-1,text,TRUE,,24909,417,1,1,6028,0,1647
 1.60712E+12,225,GetStarttime,200,OK,Thread Group 1-1,text,TRUE,,395,257,1,1,225,0,0
 1.60712E+12,1134,GetDistribution,200,OK,Thread Group 2-5,text,TRUE,,371,307,15,15,1133,0,664
