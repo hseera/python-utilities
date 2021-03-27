@@ -18,7 +18,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
-|[25: Generate Name](#25-generate-name)||||
+|[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -175,6 +175,11 @@ Generate list of random names. Useful when you want to have alot of random names
 
   
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/generate-name.png)
+
+# [26: File Detail](#26-file-detail)
+Recursively list all files present in the directory (& sub directory) with File type & permission, File Size, Owner Id and Last modified date.
+  
+![Data](https://github.com/hseera/python-utilities/blob/main/images/file-detail.png)
 
 ## Contribute
 
