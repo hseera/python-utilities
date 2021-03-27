@@ -177,7 +177,7 @@ Generate list of random names. Useful when you want to have alot of random names
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/generate-name.png)
 
 # [26: File Detail](#26-file-detail)
-Recursively list all files present in the directory (& sub directory) with File type & permission, File Size, Owner Id and Last modified date.
+Recursively list all files present in the directory (& sub directory) with File type & permission, File Size, Owner Id and Last modified date. The file detail is saved in a text file.
   
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-detail.png)
 
