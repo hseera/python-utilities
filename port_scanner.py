@@ -45,14 +45,14 @@ def generate_pivot_table(data):
         df = pd.DataFrame(data,columns=['port', 'value', 'hostname'])
         pivot = df.pivot(index='port', columns='hostname', values='value')
         pivot.to_csv(PORT_INFO_TO_WRITE, index=True)
-        print(pivot)
+        #print(pivot)
     except Exception as ex:
         raise ex
 
 def main():
     df = pd.read_csv(HOSTNAME_TO_READ)
     for ind in df.index:
-        print(df['target_name'][ind])
+        #print(df['target_name'][ind])
         scan_target_port(df['target_name'][ind])
     generate_pivot_table(data)
 
