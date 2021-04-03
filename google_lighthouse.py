@@ -81,7 +81,7 @@ def display_metrics(metrics):
 def main():
     #api parameters
     requested_url='https://www.bbc.co.uk/'   #replace the requested url with your url
-    apikey='AIzaSyA5ILlSdcBWs9DasxLGIpxiYinzGjWV84A'  # replace apikey with your pagespeed api key
+    apikey='AIzaSyA5IL...'  # replace apikey with your pagespeed api key
     pagespeed_service_url = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed'
     parameters = { 'url': requested_url,
         'key': apikey ,
