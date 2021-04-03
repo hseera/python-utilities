@@ -10,7 +10,7 @@ def execute_pagespeed(pagespeed_base_url, params):
     if (response.status_code == 200):
         extract_metrics(response.text)
     else:
-        print("Invalid Response OR Invalid Key")
+        print("Invalid Response/API Key/URL")
 
 #extract lighthouse metrics
 def extract_metrics(api_response):
@@ -80,8 +80,8 @@ def display_metrics(metrics):
   
 def main():
     #api parameters
-    requested_url='https://www.bbc.co.uk/'   #replace the requested url with your url
-    apikey='AIzaSyA5IL...'  # replace apikey with your pagespeed api key
+    requested_url = 'xxxxxx'   #replace it with your url
+    apikey = 'AIzaSyA5ILl...'  # replace apikey with your pagespeed api key
     pagespeed_service_url = 'https://www.googleapis.com/pagespeedonline/v5/runPagespeed'
     parameters = { 'url': requested_url,
         'key': apikey ,
