@@ -18,7 +18,8 @@ However, with some modifications(/in some cases none) can be used in other field
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
-|[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|[27: Port Scanner](#27-port-scanner)||
+|[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|[27: Port Scanner](#27-port-scanner)|[28: Google Lighthouse](#28-google-lighthouse)|
+|||||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -186,6 +187,12 @@ Given a list of hostname/ipaddresses, scan for open ports. Useful for system adm
 Useful for performance engineers too.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/port-scanner.png)
+
+# [28: Google Lighthouse](#28-google-lighthouse)
+For a given URL, capture lighthouse performance and debug metrics. Useful for webpage performance analysis. 
+You can extend the code to save the metrics to a time-series DB (i.e. influxdb) and use visualization tools such as Grafana to view the metrics.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/google-lighthouse.png)
 
 ## Contribute
 
