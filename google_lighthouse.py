@@ -17,13 +17,13 @@ def extract_metrics(api_response):
     try:
         metrics = {}  
         
-        fullresults = json.loads(api_response)
+        response = json.loads(api_response)
         
         measuretime = datetime.now()
         metrics['measurement_date'] = measuretime.strftime('%Y-%m-%d %H:%M:%S')
         
-        if (fullresults.get('lighthouseResult') != None):
-            lighthouse_result = fullresults.get('lighthouseResult')
+        if (response.get('lighthouseResult') != None):
+            lighthouse_result = response.get('lighthouseResult')
             metrics['requestedUrl'] = lighthouse_result['requestedUrl']
             
             metrics['device'] = lighthouse_result['configSettings']['emulatedFormFactor']
@@ -74,7 +74,7 @@ def extract_metrics(api_response):
         print(ex)
 
 
-#Shown captured metrics for the url. Replace/Update this function to save the data to a timeseries database.
+#Print extracted lighthouse metrics for the url. Replace/Update this function to save the data in a timeseries database.
 def display_metrics(metrics):
      print(metrics)
   
