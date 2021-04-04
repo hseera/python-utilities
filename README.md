@@ -194,7 +194,7 @@ You can extend the code to save the metrics to a time-series DB (i.e. influxdb) 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/google-lighthouse.png)
 
-# [29: Multi Plots](#29-multi-plot)
+# [29: Multi Plots](#29-multi-plots)
 This script shows you how to create an image with multiple plots/graphs & table. Useful for generating graphs out of JMeter raw data.
 Can we modified to cater for other tools like Gatling.
 
