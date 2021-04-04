@@ -19,7 +19,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
 |[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|[27: Port Scanner](#27-port-scanner)|[28: Google Lighthouse](#28-google-lighthouse)|
-|[29: Multi Plots](#29-multi-plot)||||
+|[29: Multi Plots](#29-multi-plots)||||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
