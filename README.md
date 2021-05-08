@@ -19,7 +19,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[17: File Splitter](#17-file-splitter)|[18: Locate File](#18-locate-file)|[19: Websphere Verbosegc](#19-websphere-verbosegc)|[20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)|
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
 |[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|[27: Port Scanner](#27-port-scanner)|[28: Google Lighthouse](#28-google-lighthouse)|
-|[29: Multi Plots](#29-multi-plots)||||
+|[29: Multi Plots](#29-multi-plots)|[30: Split String in Column](#30-split-string-in-column)|||
 ----
 
 # [1: Merge Columns](#1-merge-columns)
@@ -199,6 +199,11 @@ This script shows you how to create an image with multiple plots/graphs & table.
 Can we modified to cater for other tools like Gatling.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/graphs.png)
+
+# [30: Split String in Column](#30-split-string-in-column)
+This script splits strings using a delimiter in a column and saves the result into a new file.
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/split-strings-in-column.png)
 
 
 ## Contribute
