@@ -201,7 +201,7 @@ Can we modified to cater for other tools like Gatling.
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/graphs.png)
 
 # [30: Split String in Column](#30-split-string-in-column)
-This script splits strings using a delimiter in a column, merges all the strings into a single column and saves the result into a file.
+This script splits strings using a delimiter in a column and saves all the resultant strings to a csv. Useful when you need to get total count.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/split-strings-in-column.png)
 
