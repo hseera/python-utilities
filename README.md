@@ -12,7 +12,7 @@ However, with some modifications(/in some cases none) can be used in other field
 
 |Utility Link |Utility Link|Utility Link|Utility Link|
 |:-------------------------|:---------------|:------------------|:------------------|
-|[1: Merge Columns](#1-merge-columns)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
+|[1: Merge Files Column](#1-merge-files-column)|[2: Unique and Sorted](#2-unique-and-sorted)|[3: Histogram](#3-histogram)|[4: Extract Matched Data](#4-extract-matched-data)|
 |[5: Swap Columns](#5-swap-columns)|[6: Randomize Data](#6-randomize-data)|[7: Unique Occurrence Count](#7-unique-occurrence-count)|[8: Split File By Text](#8-split-file-by-text)|
 |[9: Heatmap](#9-heatmap)|[10: Pivot Table](#10-pivot-table)|[11: Generate ABN And ACN](#11-generate-abn-and-acn)|[12: Network Conversation Heatmap](#12-network-conversation-heatmap)|
 |[13: Creditcard Generator](#13-creditcard-generator)|[14: TFN Generator](#14-tfn-generator)|[15: IRD Generator](#15-ird-generator)|[16: Dollar Format](#16-dollar-format)|
@@ -22,8 +22,8 @@ However, with some modifications(/in some cases none) can be used in other field
 |[29: Multi Plots](#29-multi-plots)|[30: Split String in Column](#30-split-string-in-column)|||
 ----
 
-# [1: Merge Columns](#1-merge-columns)
-This script merges columns from different files together and generates a new file.
+# [1: Merge Files Column](#1-merge-files-column)
+This script merges columns from multiple files and generates a new file.
 ![MergeColumns](https://github.com/hseera/python-utilities/blob/main/images/merged-files.png)
 
 # [2: Unique and Sorted](#2-unique-and-sorted)
