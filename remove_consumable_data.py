@@ -2,12 +2,12 @@
 
 import pandas as pd
  
-def remove_consumed_data(ORIGINAL_DATA_SET, CONSUMED_DATA_SET):
+def remove_consumed_data(original_data_set, consumed_data_set):
     try:
-        consumed_df = pd.read_csv(CONSUMED_DATA_SET, header=None)
-        original_df = pd.read_csv(ORIGINAL_DATA_SET, header=None)
+        consumed_df = pd.read_csv(consumed_data_set, header=None)
+        original_df = pd.read_csv(original_data_set, header=None)
         original_df = pd.concat([consumed_df, original_df]).drop_duplicates(keep=False)
-        original_df.to_csv(ORIGINAL_DATA_SET, index=False, header=None)
+        original_df.to_csv(original_data_set, index=False, header=None)
     except Exception as e:
         print(e)
 
