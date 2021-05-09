@@ -206,7 +206,7 @@ This script splits strings using a delimiter in a column and saves all the resul
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/split-strings-in-column.png)
 
 # [31: Remove Consumed Data](#31-remove-consumed-data)
-This script removed consumed data from the original data file. Useful for those tests where you have a consumable data and you need to refresh the test data file with data that is still valid and usable.
+This script removes consumed data from the original data set. Useful for those tests where you have a consumable data and you need to refresh the original data file with data that is still valid and usable.
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/remove-consumed-data.png)
 
