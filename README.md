@@ -86,10 +86,10 @@ Generate random ABN and ACN numbers. Useful for performance/functional test scen
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/abn-acn.png)
 
 # [12: Network Conversation Heatmap](#12-network-conversation-heatmap)
-Convert network conversation captured in the trace file into a heatmap. Useful when you have a lot of conversations captured. 
-This script makes it easy to visualize the conversations, if you are not comfortable reading/trolling the Wireshark network conversation view.
-It also has an option to generate a graph too. However, the code to generate the graph will require a little modification to cater to too many conversations. 
-For less than 40 conversations in a trace file, the current code should suffice.
+Create a heatmap from the network conversation obtained in the trace file.
+When you have a large number of conversations captured, this is really useful. 
+If you are not comfortable reading/trolling the Wireshark network conversation view, this script will help you visualise the conversations. 
+It also gives the option of generating a graph. However, the technology used to produce the graph will need to be tweaked somewhat to accommodate too many conversations. The current code should suffice for less than 40 conversations in a trace file. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/network-conversation-heatmap.png)
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/graph.png)
@@ -111,8 +111,10 @@ Generate a list of valid New Zealand Inland Revenue Department Numbers (IRD). It
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/ird.png)
 
 # [16: Dollar Format](#16-dollar-format)
-Format data file with the dollar value. Useful when you need to pass dollar value parameter from a file in a payload instead of a number.
-Most of the time it should be handled in a code. Incase you are passing it through a file then this script can reduce the effort.
+Format the data file with a monetary value. 
+When you need to transmit a dollar value parameter from a file in a payload instead of a number, this is useful.
+The majority of the time, it should be handled in code.
+If you are passing it through a file, this script can help you save time. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/dollar.png)
 
@@ -123,23 +125,24 @@ Useful when you want to have unique data for the same script running across mult
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/file-splitter.png)
 
 # [18: Locate File](#18-locate-file)
-Recursively search for a file in a folder and all its subfolders. Print out the locations where that file is located.
-Useful when you don't want to scroll through all the folders and files to locate the file you need.
+Search for a file in a folder and all of its subfolders recursively.
+Print the locations where that file can be found.
+When you don't want to scroll through all the folders and files to get the file you need, this feature comes in handy. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/find-files.png)
 
 # [19: Websphere Verbosegc](#19-websphere-verbosegc)
-Save highlevel websphere verbosegc metrics into csv. Useful when you want to import the data to a load test tool for analyses & correlate with other metrics.
-Assupmtion is that you do have any other means (i.e apm tools, sitescope etc) to view this data with other application & system metrics.  
-
+Save the high-level websphere verbosegc metrics to a csv file.
+When you wish to import data into a load test tool for analysis and correlation with other metrics, this is useful.
+Assumption is that you have other tools (e.g., apm tools, sitescope, etc.) to view this data alongside other application and system metrics. 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/verbosegc.png)
 
 # [20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)
-There are situations when you get metrics data for all the servers in an excel file in a column format.   
-However, you would like to have metrics data for each server in a separate sheet. 
-Also properly formated & pivoted so it makes it easy to analyze the data or generate graphs out of it.
-This script will help you just do that. It takes data in a column format and saves pivoted data of each system/application into a separate sheet.
-
+In some cases, you will receive metrics data for all servers in an excel file in a column format.
+You would prefer, however, to have metrics data for each server on a separate sheet. 
+Also, the data is appropriately formatted and pivoted, making it simple to analyse and build graphs from it. 
+This script will assist you in doing so. 
+It accepts data in column format and stores pivoted data from each system/application to a separate sheet. 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/formatted-server-metrics.png)
 
 # [21: Merge Columns](#21-merge-columns)
@@ -149,17 +152,16 @@ Useful when you want to do analysis (i.e. Tukey test on the data set) using pyth
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/merge-columns.png)
 
 # [22: Arrange Files](#22-arrange-files)
-This script arranges files in the appropriate folder so it easy to find them when needed. 
-Useful when you want to have seperate folder for data, scripts, scenario & result. 
-Also useful when you want to arrange all the files in your download folder which might have images, music, executable, video files.
+This script organises files in the right folder so that they are easier to find when needed.
+When you wish to have a separate folder for data, scripts, scenarios, and results, this is useful.
+Also excellent for organising all of the contents in your download folder, which may contain photos, music, executables, and video files. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/arrange-files.png)
 
 # [23: Outliers](#23-outliers)
-Use Tukey fence test to identify outliers from the data set. 
-Useful when you just want to know the outlier values. 
-Also useful when extreme outliers distort the visualization and therefore you want to remove them temporarily to analyze the rest of the data.
-
+To identify outliers in a data collection, use the Tukey fence test.
+When you merely want to know the outlier values, this is a great tool.
+Also useful when extreme outliers distort the display and you need to eliminate them temporarily in order to study the rest of the data. 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/outliers.png)
 
 # [24: Basic Statistics](#24-basic-statistics)
