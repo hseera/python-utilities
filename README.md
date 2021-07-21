@@ -57,20 +57,22 @@ This script saves total number of occurrence of each unique item in a file. Usef
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/unique-occurrence-count.png)
  
 # [8: Split File By Text](#8-split-file-by-text)
-Extract data that matches a text in the data file and create a new file containing that data. 
-Useful when you have one big data file with all the data and you want to create separate data for each test script. 
-For example, you have one big data file that contains images, js & CSS URLs. 
-And you want to create a separate data file for CSS, js & images respectively. This script will help just do that.
-In the below screenshot team was not part of the search text and hence no csv created for it. name is the column name in the file. 
+Extract data that matches a text in the data file and save it to a new file.Useful when you have a single large data file containing all of the data and wish to create different data for each test run.
+
+For example, suppose you have a single large data file with images, java, and CSS URLs. And you want to build distinct data files for CSS, JS, and pictures.
+This script will assist you in doing so.
+
+In the screenshot below, team was not part of the search text, hence no csv was created for it. The name is the file's column name. 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/split-file-by-text.png)
 
 # [9: Heatmap](#9-heatmap)
-There might the times when it is not easy to notice small fluctuations in data using a line chart. 
-This script generates a heatmap for the data where you are trying to observe patterns over minutes/hours but for a longer duration (i.e.30 days). 
-For example, there might be a specific hour of the day when you see more load but it is not higher than the peak load in a day. 
-Therefore line chart for a longer duration (i.e. 30 days) might hide that pattern or it might not be easily visible.
+There may be instances when using a line chart, it is difficult to detect slight swings in data.
+This script creates a heatmap for the data when you are attempting to observe patterns over minutes/hours but for a longer period of time (i.e.30 days).
+For example, there may be a specific hour of the day when there is increased load, but it is not greater than the peak load for the day.
+As a result, a line chart for a longer period of time (e.g., 30 days) may hide or obscure that pattern.
 
-Same can be performed in excel using pivot table but will require some manual effort.
+
+The same thing can be done in Excel using a pivot table, but it will take some manual effort. 
 
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/heatmap.png)
 
@@ -135,6 +137,7 @@ When you don't want to scroll through all the folders and files to get the file 
 Save the high-level websphere verbosegc metrics to a csv file.
 When you wish to import data into a load test tool for analysis and correlation with other metrics, this is useful.
 Assumption is that you have other tools (e.g., apm tools, sitescope, etc.) to view this data alongside other application and system metrics. 
+
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/verbosegc.png)
 
 # [20: Formatted Server Metrics To Excel](#20-formatted-server-metrics-to-excel)
@@ -142,7 +145,9 @@ In some cases, you will receive metrics data for all servers in an excel file in
 You would prefer, however, to have metrics data for each server on a separate sheet. 
 Also, the data is appropriately formatted and pivoted, making it simple to analyse and build graphs from it. 
 This script will assist you in doing so. 
+
 It accepts data in column format and stores pivoted data from each system/application to a separate sheet. 
+
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/formatted-server-metrics.png)
 
 # [21: Merge Columns](#21-merge-columns)
@@ -162,6 +167,7 @@ Also excellent for organising all of the contents in your download folder, which
 To identify outliers in a data collection, use the Tukey fence test.
 When you merely want to know the outlier values, this is a great tool.
 Also useful when extreme outliers distort the display and you need to eliminate them temporarily in order to study the rest of the data. 
+
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/outliers.png)
 
 # [24: Basic Statistics](#24-basic-statistics)
@@ -215,6 +221,7 @@ This script removes consumed data from the original data set. Useful for those t
 
 # [32: Word Cloud](#32-word-cloud)
 Create a word cloud out of title, name etc.
+
 ![Data](https://github.com/hseera/python-utilities/blob/main/images/word-cloud.png)
 
 # [33: Influxdb JMeter Plot](#33-influxdb-jmeter-plot)
