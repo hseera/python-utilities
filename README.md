@@ -251,10 +251,10 @@ What things you need to execute the script
 ```
 
 # [34: OSWatcher top](#34-oswatcher-top)
-There are times when you have data gathered by [OSWbb](https://docs.oracle.com/cd/E37670_01/E37355/html/ol_oswatcher_diag.html) but don't have the OSWbba analyzer to view it. 
-This python script extracts the system metrics (CPU/memory/load/task/swap) gathered by the oswtop script.
-You pass in the oswtop file to the script and it will extract the system metrics and save them in a CSV.
-Use can then use any visualization tool to visualize the data or import it into a load testing tool (if tool permits) to visualize it.
+There are situations when you have [OSWbb](https://docs.oracle.com/cd/E37670_01/E37355/html/ol_oswatcher_diag.html) data but don't have the OSWbba analyser to view it.
+The system metrics (CPU/memory/load/task/swap) gathered by the oswtop script are extracted using this python script.
+The script will extract the system metrics and save them in a CSV file after you provide it the oswtop file.
+The data can then be visualised using any visualisation tool or imported into a load testing tool (if the programme allows it). 
 
 ## Contribute
 
