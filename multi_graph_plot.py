@@ -7,6 +7,7 @@ Modify the code to display test duration for the scatterplot rather than the cou
 import pandas as pd
 import matplotlib.pyplot as plt
 from collections import Counter
+import numpy as np
 
 import seaborn as sns
 
