@@ -269,7 +269,8 @@ The data can then be visualised using any visualisation tool or imported into a 
 # [35: Tornado Graph](#35-tornado-graph)
 Generate response time tornado graph. This type of graph is excellent for showing points of freezing in a system, more so than standard 
 scatter graphs.
-![Data](https://github.com/hseera/python-utilities/blob/main/images/tornado-graph.png)
+
+![Data](https://github.com/hseera/python-utilities/blob/main/images/tornado-graph.jpg)
 
 ## Contribute
 
