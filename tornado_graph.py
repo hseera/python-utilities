@@ -4,7 +4,12 @@ import matplotlib.dates as dt
 
 
 '''
+This is a smaple script to show you how to create response time tornado graph in python.
+Based on your data set, likely that you will need to modify this scirpt to handle your usecase.
+
 Data csv file looks something like this when opened in text editor:
+The column name used in the script are log_time and elapsed_time. 
+If they are different in your data file, update this script with correct names.
 
 "log_time","elapsed_time"
 "09/09/2021 04:32:32",21
@@ -27,7 +32,7 @@ def tornado_graph (FILE_TO_READ):
         fmt = dt.DateFormatter('%H:%M:%S')
         plt.gca().xaxis.set_major_formatter(fmt)
         for x1, x2, y in zip(df['start_time'],df['end_time'],df['latency']):
-            if y > 0.0:
+            if y > 0.0: #reducing the noise to observe the tornado pattern. Change it to suit your case.
                 plt.plot([x1,x2],[y,y], color='red')
                 '''
                 Can have extra check to change color of the graph based on latency range
