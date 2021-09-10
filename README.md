@@ -20,7 +20,7 @@ However, with some modifications(/in some cases none) can be used in other field
 |[21: Merge Columns](#21-merge-columns)|[22: Arrange Files](#22-arrange-files)|[23: Outliers](#23-outliers)|[24: Basic Statistics](#24-basic-statistics)|
 |[25: Generate Name](#25-generate-name)|[26: File Detail](#26-file-detail)|[27: Port Scanner](#27-port-scanner)|[28: Google Lighthouse](#28-google-lighthouse)|
 |[29: Multi Plots](#29-multi-plots)|[30: Split String in Column](#30-split-string-in-column)|[31: Remove Consumed Data](#31-remove-consumed-data)|[32: Word Cloud](#32-word-cloud)|
-|[33: Influxdb JMeter Plot](#33-influxdb-jmeter-plot)|[34: OSWatcher top](#34-oswatcher-top)|||
+|[33: Influxdb JMeter Plot](#33-influxdb-jmeter-plot)|[34: OSWatcher top](#34-oswatcher-top)|[35: Tornado Graph](#34-tornado-graph)||
 ----
 
 # [1: Merge Files Column](#1-merge-files-column)
@@ -264,6 +264,12 @@ There are situations when you have [OSWbb](https://docs.oracle.com/cd/E37670_01/
 The system metrics (CPU/memory/load/task/swap) gathered by the oswtop script are extracted using this python script.
 The script will extract the system metrics and save them in a CSV file after you provide it the oswtop file.
 The data can then be visualised using any visualisation tool or imported into a load testing tool (if the programme allows it). 
+
+
+# [35: Tornado Graph](#34-tornado-graph)
+Generate response time tornado graph. This type of graph is excellent for showing points of freezing in a system, more so than standard 
+scatter graphs.
+![Data](https://github.com/hseera/python-utilities/blob/main/images/tornado-graph.png)
 
 ## Contribute
 
