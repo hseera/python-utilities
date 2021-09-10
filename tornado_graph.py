@@ -18,9 +18,9 @@ Data csv file looks something like this when opened in text editor:
 def tornado_graph (FILE_TO_READ):
     try:
         df = pd.read_csv(FILE_TO_READ, sep=",")
-        df['end_time'] = pd.to_datetime(df['log_time'].str[11:19],format='%H:%M:%S')
-        df['latency'] = round(df['elapsed_time']/1000)
-        df['start_time'] = df['end_time'] - pd.to_timedelta(df['latency'], unit='s')
+        df['end_time'] = pd.to_datetime(df['log_time'].str[11:19],format='%H:%M:%S') #extract the time
+        df['latency'] = round(df['elapsed_time']/1000) #Comment this if the elapsed_time is in sec. If in milliseconds convert to seconds
+        df['start_time'] = df['end_time'] - pd.to_timedelta(df['latency'], unit='s') # get the request start time 
         df = (df.sort_values(by=['start_time'])).reset_index(drop=True)
         
         fig = plt.fig(figsize=(14,8))
